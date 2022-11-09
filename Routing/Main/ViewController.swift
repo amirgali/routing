@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBAction func didTabDemoButton() {
         let storyboard = UIStoryboard(name: "DemoViewController", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "DemoViewController") as! DemoViewController
+        vc.configure(with: false)
         present(vc, animated: true)
     }
     

@@ -33,9 +33,8 @@
                                     <action selector="didTabTermsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xhE-xA-vCB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlC-LP-jkK">
-                                <rect key="frame" x="302" y="47" width="70" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlC-LP-jkK">
+                                <rect key="frame" x="290" y="100" width="70" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Demo"/>
                                 <connections>
@@ -46,8 +45,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="PlC-LP-jkK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="8Vo-SG-p0e"/>
+                            <constraint firstAttribute="trailing" secondItem="PlC-LP-jkK" secondAttribute="trailing" constant="30" id="NZP-dt-CWo"/>
                             <constraint firstItem="Y4r-pz-35a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RQL-3T-X8c"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y4r-pz-35a" secondAttribute="bottom" constant="91" id="axh-Vr-Mb2"/>
+                            <constraint firstItem="PlC-LP-jkK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="kJ1-UZ-Zc5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PlC-LP-jkK" secondAttribute="trailing" constant="30" id="zPe-l2-zvI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5MK-1J-WKq"/>

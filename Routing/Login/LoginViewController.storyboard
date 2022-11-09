@@ -52,6 +52,10 @@
                             <constraint firstItem="auz-uU-aSj" firstAttribute="centerX" secondItem="YyS-cU-Aqt" secondAttribute="centerX" id="q9u-GQ-ijB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginField" destination="Cto-RK-kaH" id="ezL-X3-ouu"/>
+                        <outlet property="passwordField" destination="YyS-cU-Aqt" id="vru-1B-ZHD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,7 +8,16 @@
 import UIKit
 
 class DemoViewController: UIViewController {
-    @IBAction func didTabDismissButton() {
-        dismiss(animated: true)
+    // MArK: - Public
+    func configure(with shouldDismissAnimated: Bool) {
+        self.shouldDismissAnimated = shouldDismissAnimated
     }
+    
+    // MARK: - Action
+    @IBAction func didTabDismissButton() {
+        dismiss(animated: shouldDismissAnimated)
+    }
+    
+    // MARK: - Private
+    private var shouldDismissAnimated = true
 }
