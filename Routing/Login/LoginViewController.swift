@@ -9,9 +9,9 @@ import UIKit
 
 class LoginViewController: UIViewController {
     // MARK: - Public (запись значений в поля)
-    func configure(authDate: AuthData) {
-        defaultLogin = authDate.login
-        defaultPassword = authDate.password
+    func configure(authData: AuthData) {
+        defaultLogin = authData.login
+        defaultPassword = authData.password
     }
     
     
