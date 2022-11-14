@@ -25,12 +25,15 @@ class ViewController: UIViewController {
     @IBAction func didTabLoginButton() {
         let storyboard = UIStoryboard(name: "LoginViewController", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        let authDate = AuthData(login: "Username", password: "qwerty")
+        vc.configure(authDate: authDate)
         navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func didTabTermsButton() {
         let storyboard = UIStoryboard(name: "TermsViewController", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "TermsViewController") as! TermsViewController
+        vc.congigure(with: "EN")
         navigationController?.pushViewController(vc, animated: true)
     }
 }

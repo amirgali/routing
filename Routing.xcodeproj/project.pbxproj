@@ -19,6 +19,7 @@
 		98700B8D2912715400146131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98700B8B2912715400146131 /* Main.storyboard */; };
 		98700B8F2912715400146131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98700B8E2912715400146131 /* Assets.xcassets */; };
 		98700B922912715400146131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98700B902912715400146131 /* LaunchScreen.storyboard */; };
+		98D1C77229221E9700DE3EBE /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1C77129221E9700DE3EBE /* AuthData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		98700B8E2912715400146131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98700B912912715400146131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98700B932912715400146131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D1C77129221E9700DE3EBE /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				98700B9B2912721500146131 /* Main */,
 				98700B9A2912717000146131 /* Resources */,
 				98700B992912715800146131 /* Application */,
+				98D1C77129221E9700DE3EBE /* AuthData.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				98700B8A2912715400146131 /* ViewController.swift in Sources */,
 				98700B862912715400146131 /* AppDelegate.swift in Sources */,
 				98700B882912715400146131 /* SceneDelegate.swift in Sources */,
+				98D1C77229221E9700DE3EBE /* AuthData.swift in Sources */,
 				98233CD4291A7A8A0002894D /* LoginViewController.swift in Sources */,
 				98233CD9291A7CCC0002894D /* TermsViewController.swift in Sources */,
 				98233CCF291A77FC0002894D /* DemoViewController.swift in Sources */,

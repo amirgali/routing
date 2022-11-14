@@ -30,6 +30,9 @@
                             <constraint firstItem="99M-9F-TVn" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="177" id="y0g-PY-uZF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="agreementTitleLabel" destination="99M-9F-TVn" id="FbB-97-TpN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
